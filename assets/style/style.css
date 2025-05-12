@@ -1,0 +1,438 @@
+/* Navbar section */
+.navbar {
+    background: linear-gradient(#1e2a47,#0a0c11) !important;
+}
+.nav-link {
+    color: #F9C74F;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: orange;
+}
+.dropdown-menu {
+    background-color: #F9C74F !important;
+    border-color:#1E2A47  ;
+}
+.dropdown-item {
+    color: #1E2A47 !important;
+    font-weight: bold;   
+}
+.dropdown-item:hover {
+    background-color: #1E2A47;
+    color: orange !important;
+}
+.dropdown-divider {
+    border-top-color: #1E2A47;
+}
+
+
+/* Carousel section */
+.carousel-inner img {
+    margin-top: 70px;
+    height: 580px; 
+}
+.carousel-caption{
+    margin-bottom: 265px;
+    color: #F9C74F;
+}
+.carousel-caption h1{
+    text-shadow: 4px 4px  black;
+}
+
+
+/* Gallery */
+.gallery-section{
+    background-color: #F9C74F;
+}
+.gallery-title{
+    color: #1E2A47;
+}
+.gallery-para{
+    color:  #1E2A47;
+}
+.gallery-img{
+    cursor: pointer;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s ease;
+    animation: bounceIn 1s ease-in-out;
+}
+.gallery-img:hover{
+    transform: scale(1.05);
+    filter: contrast(120%);
+    border: 1px solid #1E2A47;
+}
+
+
+/* Categories */
+/* Longest bridges */
+.longest-section{
+    background-color: #1E2A47;
+    padding: 4rem 0 4rem 0;
+}
+.longest-title{
+    color: #F9C74F;
+}
+.card{   
+    box-shadow: 10px 10px 90px black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:transform 0.3s ease;
+    animation: bounceIn 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.03);
+    background-color: #F9C74F;
+}
+.card-img-top{
+    border-radius: 5px;
+}
+.btn-modal{
+    background-color: #1E2A47 ;
+    color: white;
+}
+.btn-modal:hover{
+    background-color: #1E2A47;
+    color: #F9C74F;
+}
+
+
+/* Tallest bridges */
+.tallest-section{
+    background-color: #1E2A47;
+    padding: 4rem 0 4rem 0;
+}
+.tallest-title{
+    color: #F9C74F;
+}
+
+
+/* highest bridges */
+.highest-section{
+    background-color: #1E2A47;
+    padding: 4rem 0 4rem 0;
+}
+.highest-title{
+    color: #F9C74F;
+}
+
+
+/* oldest bridges */
+.oldest-section{
+    background-color: #1E2A47;
+    padding: 4rem 0 4rem 0;
+}
+.oldest-title{
+    color: #F9C74F;
+}
+
+
+/* Country Wise Section */
+.country-wise-section{
+    background-color: #1E2A47;
+    padding: 6.5rem 0 4rem 0;
+}
+.country-title{
+    color: #F9C74F;
+}
+.nav-pills li button {
+    color: #fff;
+}
+.nav-pills li button.active {
+    color: #F9C74F !important;
+    background-color: #1E2A47 !important;
+    box-shadow: 1px 1px 5px 0px rgb(0, 0, 0);
+}
+
+
+/* monuments bridges */
+.monuments-section{
+    background-color: #1E2A47;
+    padding: 4rem 0 4rem 0;
+}
+.monuments-title{
+    color: #F9C74F;
+}
+
+
+/* History Section */
+.history-section {
+    background-color: #F9C74F;
+    padding: 5.5rem 0 5rem 0;
+}
+.history-content {
+    color: #1E2A47;
+}
+.history-data {
+    background-color: #1E2A47;
+    box-shadow: 1px 1px 10px 0px rgb(0, 0, 0);
+    transition: all 0.4s ease;
+}
+.history-data:hover {
+    transform: scale(1.03);
+    box-shadow: 1px 1px 20px 0px rgb(0, 0, 0);
+}
+.h-FAQ-header {
+  color: #fff !important;
+  background-color: #fff !important;
+}
+.h-FAQ-button {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #1E2A47 !important;
+  background-color: #ffffff !important;
+}
+.h-FAQ-button:hover {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #1E2A47 !important;
+  background-color: #F9C74F !important;
+}
+.h-FAQ-body {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1E2A47;
+}
+
+/* Customer Support */
+/* Feedback Section */
+.feedback-section {
+    background-color: #1E2A47;
+    padding: 5rem 0 5rem 0;
+}
+.feedback-content {
+    color: #F9C74F;
+}
+.feed-form-container {
+    background-color: #1E2A47;
+    box-shadow: 0px 0px 10px 3px #000;
+    transition: all 0.4s ease;
+}
+.feed-form-container:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 15px 1px #F9C74F, -1px -1px 15px 1px #F9C74F;
+}
+.feed-form-container form label {
+  color: #F9C74F;
+}
+.feed-form-container form input::placeholder,
+.feed-form-container form textarea::placeholder {
+    font-style: italic;
+}
+#feed-rating {
+    font-style: italic;
+}
+.feed-btn {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  background-color: #091769 !important;
+}
+.feed-btn:hover {
+    color: #F9C74F !important;
+    box-shadow: 0px 0px 1px 0px #000000;
+}
+
+
+/* Contact Section css */
+.contact-section {
+    background-color: #1E2A47;
+    padding: 7rem 0 7rem 0;
+}
+.contact-content {
+    color: #F9C74F;
+}
+.map {
+  box-shadow: 0 0 4px 2px rgb(0, 0, 0);
+  transition: all 0.4s ease;
+
+}
+.map:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 20px 0px #F9C74F, -1px -1px 20px 0px #F9C74F;
+}
+.address-div p a:hover, 
+.call-div p a:hover, 
+.email-div p a:hover {
+    color: #049eb3 !important;
+}
+
+
+/* Queries Section */
+.queries-section {
+    background-color: #1E2A47;
+    padding: 5rem 0 5rem 0;
+}
+.queries-content {
+    color: #F9C74F;
+}
+.queries-div {
+    background-color: #1E2A47;
+    box-shadow: 0px 0px 10px 3px #000;
+    transition: all 0.4s ease;
+}
+.queries-div:hover {
+  transform: scale(1.03);
+  box-shadow: 1px 1px 15px 1px #F9C74F, -1px -1px 15px 1px #F9C74F;
+}
+.q-form-container form label {
+  font-size: 1rem;
+  color: #F9C74F;
+}
+.q-form-container form input::placeholder,
+.q-form-container form textarea::placeholder {
+    font-style: italic;
+}
+.q-btn {
+  font-size: 1.2rem !important;
+  background-color: #091769 !important;
+}
+.q-btn:hover {
+  color: #F9C74F !important;
+  box-shadow: 0px 0px 1px 0px #000000;
+}
+.FQA-content {
+    color: #F9C74F;
+}
+.q-FAQ-header {
+  color: #fff !important;
+  background-color: #fff !important;
+}
+.q-FAQ-button {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #1E2A47 !important;
+  background-color: #ffffff !important;
+}
+.q-FAQ-button:hover {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #1E2A47 !important;
+  background-color: #F9C74F !important;
+}
+.q-FAQ-body {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1E2A47;
+}
+
+
+/* Web Info */
+/* Sitemap Section */
+.sitemap-section {
+    background-color: #F9C74F;
+}
+.sitemap-title{
+    color: #1E2A47;
+}
+.sitemap {
+    box-shadow: 2px 2px 10px 1px #000000;
+    transition: all 0.4s ease;
+}
+.sitemap:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 20px 1px #000000;
+}
+
+
+/* About Section */
+.about-section {
+    background-color: #F9C74F;
+    padding: 7rem 0 4rem 0;
+}
+.about-div {
+    color: #000000;
+    transition: all 0.4s ease;
+}
+.about-div:hover {
+    transform: scale(1.02);
+    background-color: #1E2A47;
+    color: #F9C74F;
+    box-shadow: 3px 3px 10px #000000;
+}
+.about-div:hover .about-content {
+    color: #F9C74F;
+}
+.about-content {
+    color: #1E2A47;
+}
+.about-div:hover .about-btn {
+    background-color: #F9C74F;
+    color: #1E2A47;
+}
+.about-btn {
+    background-color: #1E2A47;
+    color: #fff;
+}
+.about-btn:hover {
+    font-weight: 600;
+    background-color: #F9C74F;
+    color: #1E2A47;
+}
+.about-imgs {
+    box-shadow: 3px 3px 10px 1px #000000;
+    transition: all 0.3s ease;
+}
+.about-imgs:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 15px 1px #000000;
+}
+
+
+/* Advertise Section */
+.advertise-section {
+    background-color: #1E2A47;
+    padding: 5.5rem 0 5rem 0;
+}
+.advertise-content,.bus-title,.flight-title {
+    color: #F9C74F;
+}
+
+
+/* Footer Section */
+.footer-content {
+    background-color: #3c3f4b;
+}
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links ul li a:hover {
+    color: #F9C74F;
+}
+.footer-refference {
+    background: linear-gradient(#1e2a47,#0a0c11) !important;
+}
+
+/* Media queries */
+
+/* Small devices (sm) */
+@media (max-width: 576px) {
+    .carousel-caption{
+        margin-bottom: 180px;
+        font-size: 12px;
+    }
+    .carousel-inner img {
+        margin-top: 75px;
+        height: 450px; 
+    }
+    .queries-div {
+        margin: 20px;
+    }
+}
+
+/* Medium devices (md) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (lg) */
+@media (max-width: 992px) {
+}
+
+/* Extra large devices (xl) */
+@media (max-width: 1200px) {  
+}
+  
+/* Extra extra large devices (xxl) */
+@media (max-width: 1400px) {
+}
